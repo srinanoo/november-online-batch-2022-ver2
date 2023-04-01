@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>This is my First HTML Page : <CompanyName></title>
+        <meta name="description" content="THIS IS THE DESCRIPTION ABOUT THE WEBSITE">
+        <meta name="keywords" content="full stack developer course in chennai">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- External CSS/Styles -->
+        <!-- <link href="css/styles.css" rel="stylesheet"> -->
+
+        <!-- Internal CSS/Styles -->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            img {
+                max-width: 100%;
+            }
+            /* .row1, .row2, .row3, .row4, .row5 {
+                background-color: red;
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+            }
+            .row1 div {
+                width: 16.6666666%;
+                padding: 5px;
+            }
+            .row2 {
+                background-color: aqua;
+            }
+            .row2 div {
+                width: 25%;
+                padding: 5px;
+            }
+            .row3 {
+                background-color: green;
+            }
+            .row3 div {
+                width: 33.33333333%;
+                padding: 5px;
+            }
+            .row4 {
+                background-color: blue;
+            }
+            .row4 div {
+                width: 50%;
+                padding: 5px;
+            }
+            .row5 {
+                background-color: blueviolet;
+            }
+            .row5 div {
+                padding: 5px;
+            }
+
+            @media only screen and (max-width: 576px) {
+                .row3 div {
+                    width: 50%;
+                    flex-grow: 1;
+                }
+                .row3 .w100 {
+                    width: 100%;
+                }
+                .row1 div, .row2 div, .row3 div, .row4 div {
+                    width: 100%;
+                }
+            }
+
+            .container {
+                height: 400px;
+                background: url('images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg') center;
+            }
+            .childContainer {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+            }
+            .childContainer > div {
+                width: 50%;
+            }
+            .childContainer .left {
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+            } */
+
+            /* li:first-child {
+                background-color: orange;
+            }
+            li:last-child {
+                background-color: green;
+            } */
+
+            /* .pseudo li:nth-child(1) {
+                background-color: orange;
+            }
+
+            p::first-letter {
+                font-size: 40px;
+            }
+            p::first-line {
+                font-weight: bold;
+            }
+
+            .pseudoDIV div::before {
+                content: '';
+                background-image: url('images/bullet-1.png');
+            }
+
+            .pseudoDIV div::after {
+                content: '. I am good!. ';
+            } */
+
+            /* .div1 {
+                background-color: red;
+            }
+            .div2 {
+                background-color: greenyellow;
+            }
+            .div3 {
+                background-color: purple;
+            }
+            .div4 {
+                background-color: pink;
+            } */
+
+            .box {
+                width: 100px;
+                height: 100px;
+                border: solid;
+            }
+            .box h3 {
+                position: absolute;
+                color: white;
+            }
+            .box div {
+                position: absolute;
+                width: 98px;
+            }
+
+            .box:hover div {
+                z-index: -1;
+            }
+
+            .left {
+                background-color: gray;
+                width: 25%;
+                position: fixed;
+                height: 100vh;
+            }
+            .right {
+                background-color: aliceblue;
+                width: 73%;
+                margin-left: 27%;
+            }
+
+            .arrow {
+                width: 50px;
+                position: fixed;
+            }
+
+            header {
+                background-color: blue;
+                color: white;
+                padding: 10px;
+                position: sticky;
+                top: 10px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+
+        <img src="images/arrow2.png" class="arrow">
+
+        <div class="container">
+            <div class="left">
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+                <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                </ul>
+            </div>
+            <div class="right">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <header>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus commodi excepturi eum rerum distinctio sint quae! Dignissimos repellendus fugiat repudiandae sed earum! Recusandae optio quo nostrum, odit enim corporis.
+                </header>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla dignissimos inventore, accusantium quasi vel excepturi, atque error quo, repellendus consequatur et quos earum aspernatur debitis! Corporis maiores eligendi molestias?
+                </p>
+
+            </div>
+        </div>
+
+        <!-- <div class="div1">Div Container</div>
+        <div class="div2">Div Container</div>
+        <div class="div3">Div Container</div>
+        <div class="div4">Div Container</div> -->
+
+        <!-- <div class="box">
+            <h3>Heading</h3>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div> -->
+
+        <!-- <ul class="pseudoUL">
+            <li>I'm Dinesh</li>
+            <li>I'm Dinesh</li>
+            <li>I'm Dinesh</li>
+            <li>I'm Dinesh</li>
+            <li>I'm Dinesh</li>
+        </ul>
+
+
+        <div class="pseudoDIV">
+            <div>I'm Dinesh</div>
+            <div>I'm Dinesh</div>
+            <div>I'm Dinesh</div>
+            <div>I'm Dinesh</div>
+            <div>I'm Dinesh</div>
+        </div> -->
+        
+        <!-- <div class="container">
+            <div class="childContainer">
+                <div class="left">
+                    <div>
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti mollitia harum atque cum soluta cumque, delectus aperiam hic nihil animi nam, eligendi fugiat beatae eaque sit? Obcaecati quisquam sequi nam.</p>
+                    </div>
+                </div>
+                <div>2</div>
+            </div>
+        </div>
+        
+        <br><br>
+
+        <div class="row1">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row3">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row4">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row5">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div> -->
+
+    </body>
+</html>

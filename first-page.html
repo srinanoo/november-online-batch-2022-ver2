@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>This is my First HTML Page : <CompanyName></title>
+        <meta name="description" content="THIS IS THE DESCRIPTION ABOUT THE WEBSITE">
+        <meta name="keywords" content="full stack developer course in chennai">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- External CSS/Styles -->
+        <!-- <link href="css/styles.css" rel="stylesheet"> -->
+
+        <!-- Internal CSS/Styles -->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            img {
+                max-width: 100%;
+            }
+            .row1, .row2, .row3, .row4, .row5 {
+                background-color: red;
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+            }
+            .row1 div {
+                width: 16.6666666%;
+                padding: 5px;
+            }
+            .row2 {
+                background-color: aqua;
+            }
+            .row2 div {
+                width: 25%;
+                padding: 5px;
+            }
+            .row3 {
+                background-color: green;
+            }
+            .row3 div {
+                width: 33.33333333%;
+                padding: 5px;
+            }
+            .row4 {
+                background-color: blue;
+            }
+            .row4 div {
+                width: 50%;
+                padding: 5px;
+            }
+            .row5 {
+                background-color: blueviolet;
+            }
+            .row5 div {
+                padding: 5px;
+            }
+
+            /* Mobile Landscape or Tablet Portrait -> 600-992 */
+            @media only screen and (min-width:600px) and (max-width: 992px) {
+                .row1 div {
+                    width: 33.3333333%;
+                }
+            }
+
+            /* Mobile Landscape or Tablet Portrait -> 1-768 */
+            /* @media only screen and (max-width: 768px) { 
+                .row1 div {
+                    width: 33.3333333%;
+                }
+            } */
+
+            /* Mobile -> 1-576 */
+            @media only screen and (max-width: 576px) { 
+                .row1 div, .row2 div, .row3 div, .row4 div {
+                    width: 100%;
+                }
+            }
+
+            /* Screen > 576 */
+            /* @media only screen and (min-width: 576px) { 
+                .row1 div, .row2 div, .row3 div, .row4 div {
+                    width: 50%;
+                }
+            } */
+
+            /* Screen > 576 */
+            /* @media only screen and (min-width: 768px) { 
+                .row1 div, .row2 div, .row3 div, .row4 div {
+                    width: 33.3333333%;
+                }
+            } */
+
+            /* Screen > 576 */
+            /* @media only screen and (min-width: 992px) { 
+                .row1 div, .row2 div, .row3 div, .row4 div {
+                    width: 16.6666666%;
+                }
+            } */
+
+            /* .fb {
+                background: url('images/css-sprites.png') 0 -2px;
+                height: 61px;
+                width: 61px;
+                display: inline-block;
+            }
+            .rss {
+                background: url('images/css-sprites.png') 64px -2px;
+                height: 61px;
+                width: 61px;
+                display: inline-block;
+            } */
+            .flexbox {
+                display: flex;
+                flex-wrap: wrap;
+                height: 400px;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(0,0,0,.5);
+            }
+            .flexbox > div {
+                
+                
+            }
+
+            .menu {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .menu > div {
+                background-color: yellow;
+                padding: 10px;
+            }
+            .menu .dropdown {
+                display: none;
+                position: absolute;
+                background-color: rgba(255, 255, 0, 0.315);
+                margin-top: 10px;
+                animation: godown 300ms ease-in-out forwards;
+                transform-origin: top center;
+            }
+            .menu .dropdown a {
+                text-decoration: none;
+                padding: 5px 10px;
+                display: inline-block;
+            }
+            .menu > div:hover .dropdown {
+                display: block;
+            }
+
+            @keyframes godown {
+                0% {
+                    transform: scaleY(0)
+                }
+                80% {
+                    transform: scaleY(1.1)
+                }
+                100% {
+                    transform: scaleY(1)
+                }
+            }
+
+        </style>
+        
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <div>
+                <a href="">Menu 1</a>
+                <div class="dropdown">
+                    <div><a href="">Sub Menu 1</a></div>
+                    <div><a href="">Sub Menu 1</a></div>
+                    <div><a href="">Sub Menu 1</a></div>
+                    <div><a href="">Sub Menu 1</a></div>
+                </div>
+            </div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+        </div>
+
+        <!-- <i class="fb"></i>
+        <i class="rss"></i>
+        <i class="linkedin"></i>
+        <i class="pininterest"></i> -->
+
+        <div class="flexbox">
+            <div>
+                <div>CENTER</div>
+                <div>CENTER</div>
+                <div>CENTER</div>
+                <div>CENTER</div>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row3">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row4">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row5">
+            <div>
+                <img src="images/1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,1213 @@
+NOTES: 13-11-2022
+
+Frontend Course
+    - HTML
+    - CSS
+    - Bootstrap
+    - JavaScript
+    - jQuery
+    - ReactJs
+    - GitHub
+
+Fullstack Course
+    - Frontend Course
+    +
+    - MongoDB
+    - ExpressJS
+    - NodeJs
+    - Git
+
+WhatsApp (official group)
+    - Name as a message
+    - Usage
+        - Sharing
+            - assignments
+            - projects
+            - Slides
+        - Any kind of updates
+        - Notes
+        - Submitting the assignment or project
+        - Any questions/doubts/clarification
+        - Share anything to technical (web)
+    - DONTS
+        - misusing the contacts
+        - sharing any wanted messages
+
+Assignments
+    - small tasks depending on the topic (practice)
+Projects
+    - FE
+        - at least 5 templates
+        ReactJs
+            - 3 - 4 ReactJs templates
+    - BE
+        - at least 1 project
+            (database + backend + frontend)
+
+Procedure/Process
+    - Theory (Basic)
+        - Intermediate
+        - Advanced
+    - NO DIRECT ANSWERS
+        - give you the chance explore (entire internet)
+
+Schedule:
+    - Saturdays and Sundays
+        - 7-9pm IST
+
+Attendance
+    - Will be taken at the start of the session!
+    - in the middle!
+    - at the end!
+
+Certification
+    - FE or BE
+        - assigned project should be completed and sent for review!
+    
+Terms
+    - Developer
+    - Programmer
+    - Coder
+        
+        - Who is a Developer / Programmer / Coder?
+        - Are they same or different?
+            if same, why?
+                how long will it take to become one?
+            if different, how?
+                how long will it take to become one?
+
+        
+NOTES: 19-11-2022
+
+Venish (Developer)
+    - Coder (2-3 months)
+        one who knows software
+    - Programmer (2-3 years)
+        one who can implement logic/algo
+    - Developer (2-3 years)
+        coder and programmer, with documentation
+
+Karthikeyan (Coder)
+    - Coder / Programmer / Developer (min. 3 months)
+        all are the same
+
+Purushotham (Developer)
+    - Coder (2-3 months)
+    - Programmer (2+ years)
+    - Developer (3+ years)
+
+Kiran (Coder)
+    - Coder (6 months)
+        beginner
+    - Programmer (min. 1 year)
+        after coder, who programs the program
+    - Developer (1.5+ years)
+        create the software, with help of programmer, but knows more than programmer and coder
+
+Gunaseelan (Developer)
+    - Coder (min. 1 year)
+        one who has IT background
+        no logically thinking
+    - Programmer (2-3 years)
+        solve logically
+        at least worked on 2-3 projects
+    - Developer (after 3 years)
+        documentation about the software/project
+        maintenance of software
+
+Jaya Seetha (Coder)
+    - Coder (6 months)
+        uses computer language (uses 0/1s)
+    - Programmer (1 year)
+        uses some programming
+    - Developer (2-3 years)
+        debugging
+        also knows about programmers' and coders'
+
+
+Project Sample Work
+    - To Build/Construction of a classroom
+
+        - Steps/Necessary Things
+            - Phase 1 (7:30pm started, it ended 7:40pm) - 10mins (Developed)
+                - Room
+                - Building
+                - Teachers
+                - Students
+                - Teaching Aids (Materials)
+                - Tables, Benches, Chairs, A/c, White Board, etc.,
+                - Raw Materials (bricks, sand, cement, iron, wire, water)
+                - Man Power (wagers, enggineers, supervisors)
+                - Timeframe
+                - Architectural Plan
+                - Maintenance
+                - Exterior / Interior
+                - Approval / Funds
+                - Land
+                - Rubishes
+
+            - Phase 2 (8:18pm started, it ended at 8:23) - 10 mins (Programming)
+                - Steps (Sequential)
+                    - Land
+                    - Approvals
+                    - Blueprint (Architectural plan)
+                    - Funds / Proposals
+                    - Approvals
+                    - Time Frame
+                    - Approvals
+                    - Exterior / Interior
+                    - Approvals
+                    - Man Power (Engg, Superviors, Wagers)
+                    - Raw Materials (bricks... )
+                    - Construction / Implementation
+
+                - Pseudo Code
+                    - step by step instruction in human understandable language
+
+            - Phase 3
+                - Coder (3 months, 6 months)
+                    - Implement
+                        - Technology/Software of Knowledge
+
+
+HARD WORK
+    Hitting the nail in the wall?
+        Wall
+        Nail
+        Hammer
+            Person
+                - Effort
+                - Committment
+
+Am I going to get profits (money) out of this person?
+
+2 important qualities
+    Attitude
+        willingness to learn
+        whether the person is trainable
+    Adaptibility
+        FULL STACK
+            MERN
+                - we have a project, in MEAN
+                    - are you in?
+                        yes and then learn
+
+
+FullStack
+    - What is fullstack?
+        - Collection of Layers (set)
+            - different software
+        
+        - Layers
+            - Frontend
+            - Backend
+            - Database
+
+Editor vs IDE (Integrated Developement Environment)
+    Editor is simple software
+        - Notepad
+        - Mostly its TEXT Editors
+    IDE is extensive of the simple software with additional features
+        it can support multiple technologies
+        it can support multiple features
+        it can also things like compiling
+            - VS Code (Visual Studio Code)
+                https://code.visualstudio.com/
+            - Sublime Editor
+            - Coffeecup 
+            - Homesite
+            - Eclipse
+
+
+NOTES: 20-11-2022
+
+Types of Languages?
+    Markup (Placeholder)
+        - HTML
+        - XML
+    Scripting (Programming, but without any additional environment, simple programming language)
+        - Client Side
+            - JavaScript (Notepad, Any browser)
+            - ReactJS
+        - Server Side
+            - ASP (IIS, Apache)
+            - JSP (Apache, Tomcat)
+            - VBScript
+            - ReactJS (simply it will run on the environment, others its a client side scripting)
+            - NodeJs
+    Programming
+        - PHP
+        - Python
+        - Java
+        - .Net
+        - Ruby-n-Rails
+        - Native React
+        - Native Angular
+
+
+WWW - World Wide Web
+    W3C
+        World Wide Web Consortium
+            - Governing Body of the entire internet
+
+Website vs Web page
+    - web page is a single document
+        eg: a single HTML document
+            home.html
+    - website is a collection of web pages
+        eg: a collection of HTML documents
+            home.html
+            about.html
+            portfolio.html
+            contact.html
+
+www.domain.com - domain name
+    - content / files inside
+        - website
+
+HTML TAGS
+    Syntax
+        - Core / Representing / Architecture
+
+        - Tags aka Elements aka Containers
+            <...>
+                ...
+            </...>
+
+            - Classification / Category
+                Paired Tag
+                    <TAGNAME> => Opening Tag
+                        content / text / containers
+                    </TAGNAME> => Closing Tag
+                Unpaired Tag (Self Closing)
+                    <TAGNAME>
+                    or
+                    <TAGNAME />
+
+
+Basic Coding Standards
+    - Meaningful names
+        folder name
+        file name
+        variable name
+            - should not be like this:
+                project1 /project1.html
+                testproject / testproject.html
+                assignment1.html
+            - CRIME
+                SPACES
+                    test project.html
+            - should be like this:
+                Naming Conventions
+                    - 6 Cases Options
+                        - lower camel case
+                            first.html
+                            firstPage.html
+                            firstPageNewPage.html
+                        - upper camel case
+                            First.html
+                            FirstPage.html
+                            FirstPageNewPage.html
+                        - lower case
+                            first.html
+                            firstpage.html
+                            firstpagenewpage.html
+                        - upper case
+                            FIRST.html
+                            FIRSTPAGE.html
+                            FIRSTPAGENEWPAGE.html
+                        - snake case
+                            first.html
+                            first_page.html
+                            first_page_new_page.html
+                        - dash case
+                            first.html
+                            first-page.html
+                            first-page-new-page.html
+
+    - Code Indent
+        - Spaces before the line start
+        - Maintaining the hierarchy
+
+
+HTML Structure
+    <html>
+        <head>
+        </head>
+        <body>
+        </body>
+    </html>
+
+How to Create/Open/Edit HTML file?
+    - Open VS Code
+        - File -> New Text File
+            - File -> Save
+                <filename>.html
+        - Enter/Type in the HTML Structure
+            - File -> Save
+    
+    - Open HTML file in Browser
+        - Open File Explorer window
+            - Navigate to the folder
+                - Double click on the HTML file
+                    - which will open the default browser of your system
+        - Open File Explorer window
+            - Navigate to the folder
+                - Right click on the HTML file
+                    - Open with -> select the appropriate browser of your choice
+        - Open the Browser directly
+            - Click on "CTRL + S"
+                - Navigate to the folder
+                    - Double of the HTML file
+
+    - Making changes/edits in HTML file
+        - Open File Explorer window
+            - Navigate to the folder
+                - Right click on the HTML file
+                    - Open with Code
+        - Open VS Code directly
+            - File -> Open File
+                - Navigate to the folder
+                    - Double of the HTML file
+
+Deprecated
+    - marked for deletion in the next version/upgrade
+
+HTML produces the output in the browser
+    - Rendering
+        - one by one
+
+
+NOTES: 26-11-2022
+
+HTML Attributes (aka properties)
+    Paired Attribute
+        KEY/VALUE => name="value"
+    Unpaired Attribute (self closing)
+        KEY = name
+
+    Built-in Attribute
+        Core Attribute
+            id
+            class
+            style
+            title
+        Generic Attribute
+            . it depends on the tag
+                align
+                border
+                cellpadding
+                width
+                height
+    Custom Attribute (will ask you guys when we come to BOOTSTRAP)
+        - attribute name that starts with "data-" is custom attribute
+
+PATH
+    root folder
+        https://www.domain.com/
+            https://www.domain.com/about.html (Complete Path)
+            https://www.domain.com/contact.html
+    relative path (always good!)
+        about.html
+        images/file.png
+    absolute path (NEVER good! - its good in programming environment) / physical path (NEVER good! - its good in programming environment) / full or external path (depends !)
+
+HTML Measurements
+    px (pixels)
+    % (percentage)
+
+
+SEO (Search Engine Optimization)
+
+
+NOTES: 27-11-2022
+
+Spacing
+    - cellspacing
+    - cellpadding
+
+Sizing
+    - width
+    - height
+
+Project #1 (for this week!)
+    Design to convert: https://srinanoo.github.io/templates/templates/workshop-with-bootstrap-html.png
+    1st Part (in a separate .html file)
+        - convert the given template in HTML Table tag (individual tables) - with borders
+    2nd Part (in a separate .html file)
+        - convert the given template in HTML Table tag (1 table with nested table concept) - with borders
+    3rd Part (in a separate .html file)
+        - you can use either individual tables or nested concept and convert the given template
+            - without borders, but with background colors
+
+
+NOTES: 10-12-2022
+
+Assignment #1
+    Part 1
+        - Named Anchor (old/traditional way) -> <a name=""></a>
+            - Topic is of your choice
+                eg: Chapter with Content
+                    Bio with Content
+                    Movie with Content
+                    Music with Content
+        
+    Part 2
+        - Named Anchor (new/modern way) -> <a name=""></a> will replace with "id" attribute of the heading of that section
+
+    Part 3
+        - create 2 HTML documents
+            - 1st HTML document (chapter.html)
+                - Chapters/Bio Names/Movie Titles/Music Titles
+                    eg:
+                        <a href="#chapter1">Chapter 1</a>
+                        will be changed to
+                        <a href="content.html#chapter1">Chapter 1</a>
+
+            - 2nd HTML document (content.html)
+                - Have all the content of the Titles
+                    eg:
+                        <h3 id="chapter1">Chapter 1 Content</h3>
+                        ... content will go here...
+                        <a href="chapter.html">Chapter 1</a>
+
+                        <h3 id="chapter2">Chapter 2 Content</h3>
+                        ... content will go here...
+                        <a href="chapter.html">Chapter 1</a>
+
+META TAGS
+    - SEO
+        - MARKETING
+            - SEARCH ENGINES
+                TITLE = 75
+    - Content Writers
+        - true/unique content
+        - keywords
+
+Compatibility vs Responsiveness
+
+
+NOTES: 11-12-2022
+
+2 Methods to send data through the browser
+    - GET (default)
+        HTTP GET
+            - in the URL it will start with ? mark
+                ?txtUsername=dfdsfsdfds
+                    - querystring
+                    - if multiple form controls used
+                        ?elName=elValue&elName1=elValue1&elName2=elValue2
+            - 1024 Characters
+    - POST
+        HTTP POST
+            - use browser temp variable and refreshes/resets when the page is refreshed
+            - when you have sensitive data to transfer, use POST
+            - 2GB of data can be sent
+
+
+Encoding vs Decoding
+    - System Dependendant 
+
+Encryption vs Decryption
+    - Half System + Half Custom (Human)
+
+Forms (Project #2) = Create 85 Forms
+    - How many different kinds/types of forms?
+        - Application
+        - Feedback
+        - Registration
+        - Sign In
+        - Sign Up
+        - Admission
+        - Declaration
+        - Payment
+        - Purchase / Order
+        - Donation / Charity
+        - Reservation Flight / Train / Bus / Cruise / Cabs / Auto / Bike / Hotels / Restaurants
+        - Resolution / Support
+        - Audit
+        - Log/Time Sheet
+        - Contact
+        - Selection
+        - Medical OP / Test / Bill / Claiming
+        - Insurance Registration / Renewal / Claiming / Dispute / Bond / Cancellation / Reinstating
+        - Invoice
+        - Newsletter Subscription
+        - Attendance
+        - Advertisement
+        - Service Car / Bike / Gadgets / Jet
+        - Guidance
+        - Scheduling
+        - Request
+        - Appointment / Resignation
+        - Compensation / Reimbursement
+        - Leave Application
+        - Employee
+        - Investigator / Suspect / Background / Legal
+        - Bank Opening / Deposit / Withdrawal / Surrender / Update / Closure / Fradualent / Loan
+        - Govt License / Passport / Aadhaar / Pan / IT / Voter Id / Ration / Border Pass / Voting / PPF / Retirement / Birth
+            / Death / Marriage / Heir / Adoption / Divorce / Immigrate
+
+        = 85 FORMS
+
+
+NOTES: 17-12-2022
+
+CAPTCHA
+    - BACKEND technology has to be used
+
+        ENTER THE ABOVE CODE
+    
+    - CRAWLING
+
+
+NOTES: 18-12-2022
+
+3 Ways to include CSS/Styles in HTML document
+    - internal
+        - use the <style> tag and it should be placed within the <head> tag
+    - inline
+        - use the style attribute of your html tag
+    - external
+        - use a separate .css file and by using the <link> tag it can be linked with the HTML document and the <link> should be placed within the <head> tag
+
+
+
+NOTES: 24-12-2022
+
+CSS Selectors
+    universal
+    type
+    class
+    id
+    attribute
+        - attribute + value
+        - selector + attribute + value
+
+    type:
+        type
+            div {}
+        type + class
+            div.pink {}
+        type + id
+            div#pink {}
+        type + attribute variant 1
+            input[type] {}
+        type + attribute variant 2
+            input[type="value"]
+
+    class:
+        class
+            .pink {}
+        class + id
+            .pink#bgcolor {}
+        class + attribute
+            .pink[data-custom]
+        class + attribute + value
+            .pink[data-custom="value"]
+
+    id:
+        id
+            #pink {}
+        id + class
+            #pink.bgcolor {}
+        id + attribute
+            #pink[data-custom]
+        id + attribute + value
+            #pink[data-custom="value"]
+
+TASK FOR THIS WEEK:
+    - convert or update existing templates (2 - portfolio + meet-me) with color and background-color from CSS
+    - work on new template (ispace) with TABLE tag, with color and background-color from CSS
+    - work on another new template (kataklimt) with TABLE tag, with color and background-color from CSS
+    - make the templates (all 4) as box or fluid or box inside a fluid container
+
+Tomorrow is OFF
+NEXT WEEK IS ALSO OFF
+WE ARE GOING TO MEET ON NEW YEAR *7th of Jan*
+
+
+NOTES: 14-01-2023
+
+CSS Basics
+    - Measurements
+        px
+        %
+        pt
+        em
+        rem
+
+        mm
+        cm
+        in
+        pc
+
+        vw - viewport width
+        vh - viewport height
+
+    - Inherit, Initial
+
+    - Color (text, background, borders)
+        - basic colors we have ?
+            white & black
+        - others (combination)
+            - Named Colors (16) - browser safe colors
+
+            - RGB (Red + Green + Blue)
+                - % (0 - 100%)
+                    rgb(0%, 0%, 0%)
+                - value (0-255 => 256)
+                    rgb(100, 200, 50)
+
+            - RGBA (Red + Green + Blue + Alpha) -> Alpha aka Opacity aka Transparency
+                - % (0 - 100%)
+                    rgba(0%, 0%, 0%, 0%)
+                - value (0-255 => 256)
+                    rgba(100, 200, 50, 0-1)
+
+            - Hex Codes
+                - 6 digit
+                    0-9, A-F
+                        eg:
+                        #000000 -> black
+                        #ffffff -> white
+                        #123456
+                        #abcdef
+                        #a1b2c3
+                - 3 digit
+                    0-9, A-F
+                        eg:
+                        #000 -> black
+                        #fff -> white
+
+                        #123456 => #135 and not (#246)
+
+            - HSL (Hue, Saturation, Lightness)
+                Hue -> deg (0-359)
+                Saturation -> %
+                Lightness -> %
+
+            - HSLA (Hue, Saturation, Lightness, Alpha)
+                Hue -> deg (0-359)
+                Saturation -> %
+                Lightness -> %
+                Alpha (0-100% or 0-1 as value)
+
+Sharing your assignments or project should only be done through Github:
+    - Share 2 links
+        - code
+            https://github.com/srinanoo/november-online-batch-2022.git
+        - output
+            https://srinanoo.github.io/november-online-batch-2022/first-page.html
+
+            https://srinanoo.github.io/november-online-batch-2022/october-offline-batch-2022/first-page.html
+
+
+NOTES: 21-01-2023
+
+Fonts
+    - ttf (true type font)
+    - otf (open type font)
+    - woff (web open font family)
+    - eot (embedded open type)
+    - svg (scalar vector graphic)
+
+
+NOTES: 22-01-2023
+
+Box Model
+    - margin
+    - border
+    - padding
+        - content
+
+Spacing?
+    - Margin
+    - Paddding
+
+Directions
+    - top
+    - right
+    - bottom
+    - left
+
+spacing + direction
+
+This week's template conversion using Flexbox:
+https://srinanoo.github.io/templates/templates/iceclean.jpg
+
++ 
+
+Convert all HTML Table templates into Flexbox
+
+
+NOTES: 28-01-2023
+
+
+
+NOTES: 29-01-2023
+
+Responsiveness
+    - Screen Sizes
+        - Guided Screen Sizes
+            - 576px (=> Mobile in Portrait)
+            - 768px (=> Mobile in Landscape + Tablet in Portrait)
+            - 992px (=> Tablet in Landscape + Laptop in small size/screens)
+            - 1200px (=> Laptop in small/medium/large + Desktop small/medium )
+            - 1400px (=> Desktop small/medium/large/larger/largest)
+        - Custom Screen Sizes
+            - 600px (=> Mobile in Portrait)
+            - 800px (=> Mobile in Landscape + Tablet in Portrait)
+            - 1000px (=> Tablet in Landscape + Laptop in small size/screens)
+            - 1200px (=> Laptop in small/medium/large + Desktop small/medium )
+            - 1400px (=> Desktop small/medium/large/larger/largest)
+    
+    - Breakpoints
+        - xs - Extra Small
+        - sm - Small
+        - md - Medium
+        - lg - Large
+        - xl - Extra Large
+        - xxl - Double Extra Larger
+
+    - Screens = Breakpoints
+        - xs => <576px ( 1 - 575.97 )
+        - sm => >576px ( 576 - ... ) => 576 - 767.97
+        - md => >768px ( 768 - ... ) => 768 - 
+        - lg => >992px ( 922 - ... )
+        - xl => >1200px ( 1200 - ... )
+        - xxl => >1400px ( 1400 - ... )
+
+    - Range Calculation
+        < => max-width
+        > => min-width
+
+    - CSS Syntax for Responsiveness
+        - @media
+            @media only screen and (max-width: 576px) {
+                ... CSS definitions for screen size between 1-576 will go here...
+            }
+            @media only screen and (min-width: 576px) {
+                ... CSS definitions for screen size between >576 will go here...
+            }
+            @media only screen and (min-width: 768px) {
+                ... CSS definitions for screen size between >768 will go here...
+            }
+            @media only screen and (min-width: 992px) {
+                ... CSS definitions for screen size between >992 will go here...
+            }
+            @media only screen and (min-width: 1200px) {
+                ... CSS definitions for screen size between >1200 will go here...
+            }
+            @media only screen and (min-width: 1400px) {
+                ... CSS definitions for screen size between >1400 will go here...
+            }
+            or also can be code like:
+            @media and (max-width: 576px) {
+                ... CSS definitions for screen size between 1-576 will go here...
+            }
+
+This week's template to convert using Flexbox and Responsiveness:
+https://srinanoo.github.io/templates/templates/flomic-abele.png
+
+
+NOTES: 05-02-2023
+
+<TAG NAME>
+    ::before => prepend in JavaScript
+    .... content / container / child container
+    ::after => append in JavaScript
+</TAG NAME>
+
+This week's practice:
+    - set parent as relative
+        - all child as relative
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+        - all child as absolute
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+        - different child as absolute and different child as relative
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+    - set parent as absolute
+        - all child as relative
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+        - all child as absolute
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+        - different child as absolute and different child as relative
+            - use the spacing + direction properties and observe what happens
+            - use the direction properties alone and observe what happens
+
+- This week's template to convert: (position + flex / grid + responsive)
+https://srinanoo.github.io/templates/templates/flomic-sonic.jpg
+
+- PENDING TO COMPLETE NEXT WEEK:
+    - Float - DONE
+    - Media Query (min-width and range (min-width + max-width)) - DONE
+
+
+NOTES: 11-02-2023
+
+Breadcrumbs -> Trails
+
+
+NOTES: 12-02-2023
+
+Tagline / Motto
+    - One Framework, Every Device
+
+Approach
+    - Mobile First
+
+Scale Down
+    - Desktop -> Mobile
+
+Scale Up
+    - Mobile -> Desktop
+
+Buy a mobile or laptop!
+    - screen size / display
+    - RAM - 4gb / 6gb / 8gb / 16gb
+    - Storage
+        - Internal - 512gb / 256gb / 128gb / 64gb
+        - External - 
+    - Brand / Model
+    - OS / Version / Specification / Release
+    - Battery
+    - Camera
+    - Price - ?
+
+Host a Website
+    - Old Traditional
+        - GoDaddy
+        - HostGator
+        - VSNL
+        - InMotion
+    - Modern
+        - AWS & Google Cloud
+            - Pay as you go!
+                - Free (1st yr or 1million hits/month)
+                - 1million hits/month
+                +
+                - Storage (limits)
+                    Feb - 10mb
+                    Mar - 1gb
+                    Apr - 100mb
+        - Azure
+        - iOS
+
+CDN
+    - Content Delivery Network
+        - Mobile Operators
+            - Airtel
+            - Jio
+            - Vodofone / Idea
+            - Megafone
+            - BSNL
+        
+        - YouTube
+
+Minify
+    - removing unwanted blank spaces
+    - HTML
+    - CSS
+    - JS
+
+CORS
+    - Cross Origin Resource Sharing
+
+For this week, practice only the basics of Bootstrap
+    - Layout
+        - container-fluid (fluid)
+        - container (box)
+    - Structure
+        - grid system in Bootstrap
+            - row (for parent)
+                - col (for child / for each column)
+
+This week's template to convert using flex, grid, responsive + trying out bootstrap:
+https://srinanoo.github.io/templates/templates/appletea.jpg
+
+
+NOTES: 19-02-2023
+
+Bootstrap Basics
+    - Spacing
+        - margin
+            in CSS
+                margin
+                margin-top
+                margin-right
+                margin-bottom
+                margin-left
+            in Bootstrap
+                m
+                mt
+                me = from v5 (before v5 its mr)
+                mb
+                ms = from v5 (before v5 its ml)
+                mx (me + ms)
+                my (mt + mb)
+                    - Spacing + Spacer
+                        m-0
+                        mt-1
+                        me-2
+                        mb-3
+                        ms-4
+                        mx-5
+        - padding
+            in CSS
+                padding
+                padding-top
+                padding-right
+                padding-bottom
+                padding-left
+            in Bootstrap
+                p
+                pt
+                pe = from v5 (before v5 its pr)
+                pb
+                ps = from v5 (before v5 its pl)
+                px (pe + ps)
+                py (pt + pb)
+    
+    - Spacers (1rem = 16px)
+        0                       = 0px
+        1 = 0.25rem x 16        = 4px
+        2 = 0.5rem x 16         = 8px
+        3 = 1rem x 16           = 16px
+        4 = 1.5rem x 16         = 24px
+        5 = 3rem x 16           = 48px
+
+        0       = 0
+        25      = 25%
+        50      = 50%
+        75      = 75%
+        100     = 100%
+
+    - Sizing
+        - width
+            in CSS
+                width
+            in Bootstrap
+                w-0
+                w-25
+                w-50
+                w-75
+                w-100
+        - height
+            in CSS
+                height
+            in Bootstrap
+                h-0
+                h-25
+                h-50
+                h-75
+                h-100
+
+    - Contextual Classes (themes)
+        primary
+        secondary
+        info
+        success
+        danger
+        warning
+        light
+        dark
+
+        - background
+            bg-primary
+            bg-secondary
+            bg-info
+            bg-success
+            bg-warning
+            bg-danger
+            bg-light
+            bg-dark
+
+        - text/content
+            text-primary
+            text-secondary
+            text-info
+            text-success
+            text-warning
+            text-danger
+            text-light
+            text-dark
+
+        - border
+            border-primary
+            border-secondary
+            border-info
+            border-success
+            border-warning
+            border-danger
+            border-light
+            border-dark
+
+    - Borders
+        border
+            border-0
+            border-1
+            border-2
+            border-3
+            border-4
+            border-5
+        
+        border-top
+        border-end
+        border-bottom
+        border-start
+
+        border-primary
+        border-secondary
+        border-info
+        border-success
+        border-warning
+        border-danger
+        border-light
+        border-dark
+
+        border-top-0
+        border-end-0
+        border-bottom-0
+        border-start-0
+
+        - border-radius
+            rounded
+            rounded-0
+            rounded-1
+            rounded-2
+            rounded-3
+            rounded-4
+
+            rounded-pill
+            rounded-circle
+
+This week's task?
+    - to prepare for next week
+        - do a seminar on Bootstrap
+            - each one will take single or few topics in Bootstrap and present it in the session next week on Saturday, not less than 10 mins.
+            - no one will take the same topic
+            - focus on the topics from the following section:
+                - Components
+                - Utilities
+                - Forms
+                - Tables
+                - Grid
+                - Flex
+        - outcome?
+            - make you to talk
+            - how you are discussing as a team
+            - how you are convincing (without hurting)
+            - how well you are communicating
+            - how well you are preparing
+                - whether you are delivering the prepared content
+                - how you are handling the questions or clarifying
+            - communication / conversation / vocabulary skills
+
+
+NOTES: 11-03-2023
+
+JavaScript
+    - Case sensitive
+        - uses ASCII
+            - send number (key codes)
+                - A - 65
+                - a - 97
+                    - internally its going to be converted into Binary
+
+        - var a = 10;
+            A
+            a
+
+        - <p> = <P>
+
+    - Handle Data
+        - Types of Data to Handle?
+            - alphanumeric + special characters + (ordinal + images + audio/video/document => files) => media (binary)
+
+        - Data Types in programming/scripting languages?
+            - integer or int or smallint or bigint or short or long
+            - float or double
+            - boolean
+            - string
+            - character or char
+            - array
+            - object
+            - null
+            - undefined
+            - symbol
+            
+            - in other programming/scripting languages how to define the data type?
+                int i = 10
+                i = 20
+        
+        - JS is an Untyped Language
+            - Data Types
+                - Number
+                - String
+                - Boolean
+                - Array
+                - Object
+                - Null
+                - undefined
+                - NaN
+                - Symbol
+
+        - Variable - keeps on changing
+        - Constant - does not change
+
+        - Variable (Declaration / Assignment or Defined)
+            - ways to declare
+                - var
+                    var a; // Declaration
+                    a = 10; // Assignment or Define
+
+                    var a = 10;
+                - let
+                    let a;
+                    a = 10;
+
+                    let a = 10;
+            - Hoisting
+
+        - var vs let
+        - const
+
+
+NOTES: 12-03-2023
+
+JavaScript
+    - var vs let
+        - var can be redeclared, whereas let can't be redeclared
+        - var can be global or local scope, whereas let can be only block level scope
+        - var to be insecured, let is the chosen one most of the times...
+
+    - BODMAS
+        - Brackets
+        - Of
+        - Division
+        - Multiplication
+        - Addition
+        - Subtraction
+
+
+NOTES: 25-03-2023
+
+total=100||||correct=88||||560=D||$||561=B||$||562=B||$||563=D||$||564=B||$||565=C||$||566=C||$||567=C||$||568=D||$||569=B||$||570=C||$||571=C||$||572=B||$||573=D||$||574=A||$||575=C||$||576=C||$||577=A||$||578=D||$||579=A||$||580=B||$||581=D||$||582=C||$||583=C||$||584=B||$||585=D||$||586=C||$||587=D||$||588=B||$||589=A||$||590=D||$||591=D||$||592=B||$||593=A||$||594=A||$||595=C||$||596=D||$||597=C||$||598=D||$||599=B||$||600=A||$||601=C||$||602=B||$||603=A||$||604=B||$||605=D||$||606=C||$||607=D||$||608=A||$||609=D||$||610=D||$||611=B||$||612=B||$||613=C||$||614=C||$||615=C||$||616=B||$||617=B||$||618=C||$||619=A||$||620=B||$||621=C||$||622=D||$||623=D||$||624=B||$||625=B||$||626=A||$||627=C||$||628=A||$||629=D||$||630=C||$||631=D||$||632=C||$||633=D||$||634=A||$||635=B||$||636=B||$||637=D||$||638=A||$||639=A||$||640=C||$||641=C||$||642=C||$||643=C||$||644=B||$||645=B||$||646=C||$||647=B||$||648=B||$||649=D||$||650=B||$||651=A||$||652=B||$||653=C||$||654=B||$||655=B||$||656=A||$||657=A||$||658=C||$||659=A||$||
+
+
+NOTES: 26-03-2023
+
+JS Tasks:
+    - www.jschallenger.com
+        - practice problems (Fundamentals, Array, Object)
+
+    - Assignments
+        - JavaScript-Project-Titles-List.txt
+            - 18 assignment titles
+            - 22 feature titles (useful in website)

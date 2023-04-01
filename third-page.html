@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* */
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript</h1>
+
+    <!-- External JS -->
+    <script src="js/scripts.js"></script>
+    
+    <script>
+        // for all single line comment...
+
+        /* All the JS codes... 
+        its called Internal JS */
+
+        // debugging or checking the output
+        // DOM
+        // document.write("This is my first JS Code");window.alert("This is my second JS Code");console.log("This is my third JS Code");
+
+        // var a = 10; // global scope
+        // console.log(a, " - First console.log");
+        // a = 30;
+        // function testFunc() {
+        //     console.log(a, " - Inside the function");
+
+        //     a = 40;
+
+        //     console.log(a, " - Inside the function after reassigning");
+
+        //     function testNumber() {
+            
+        //         console.log(a, " - Inside Child Function");
+
+        //         var a = 60; // block
+        //     }
+        //     testNumber();
+
+        //     console.log(a, " - Inside the function after redeclaring and reassigning");
+
+        //     b = 20; // local scope
+        //     console.log(b, " - B is inside the function");
+        // }
+        // testFunc();
+        // console.log(b, " - B outside the function");
+
+        // a = 50;
+
+        // console.log(a, " - outside the function after redeclaring and reassigning");
+
+
+        // var a = 10; // global scope
+        // console.log(a, " - First console.log");
+        // function testFunc() {
+        //     console.log(a, " - Second console.log");
+
+        //     b = 20; // local scope aka block level scope // global scope because of hoisting (upgraded)
+        //     console.log(b, " - B - First console.log");
+
+        //     function secondFunc() {
+        //         console.log(b, " - B - Inside Child function console.log");
+        //     }
+        //     secondFunc();
+        // }
+        // testFunc();
+        // var b;
+        // console.log(b, " - B - Second console.log");
+
+        // var a = 10;
+        // console.log(a, " - a");
+
+        // var a = "this is a test string";
+        // console.log(a, " - a");
+
+        // // let b = 10;
+        // // console.log(b, " - b");
+        
+        // // b = "this is a test string";
+        // // console.log(b, " - b");
+
+        // let b = true;
+        // console.log(b, " - b");
+
+        // for(var i=0; i<5; i++) {
+        //     console.log(i, " - i");
+        // }
+        // console.log(i, " - outside for loop");
+
+
+        // for(let j=0; j<5; j++) {
+        //     console.log(j, " - j");
+        // }
+        // console.log(j, " - j outside for loop");
+
+        // var a;
+        // a = 10;
+
+        // let b;
+        // b = 10;
+
+        // const c = 10;
+        // console.log(c, " - c");
+
+        // c = 20;
+
+        // var a = 10;
+        // var b = "dinesh";
+        // console.time(); // starting of the process timer
+        // if(a < b) {
+        //     console.log("a is lesser than b"); // right
+        // } else {
+        //     console.log("a is not lesser than b");
+        // }
+        // console.timeEnd(); // end of the process timer and shows the duration of the process
+
+        // console.time();
+        // (a < b) ? console.log("a is lesser than b") : console.log("a is not lesser than b");
+        // console.timeEnd();
+
+        // var a = 10;
+        // if(Number.isInteger(a)) {
+        //     console.log("A is an integer");
+        // } else {
+        //     console.log("A is not an integer");
+        // }
+
+        // let temp = Math.ceil(3.33333);
+
+        // console.log(temp);
+
+        // let Score1 = Math.round(100.3254);
+        // let Score2 = Math.floor(100.3254);
+        // let Score3 = Math.ceil(100.3254);
+
+        // console.log(Score1);
+        // console.log(Score2);
+        // console.log(Score3);
+
+        // let str = "this is a test string";
+        // console.log(str);
+
+        // let str1 = 'this is also a string variable';
+        // console.log(str1);
+
+        // let str2 = "this is \"test\" \"string\"";
+        // console.log(str2);
+
+        // let str3 = 'this is "test" "string"';
+        // console.log(str3);
+
+        // let str4 = 'I\'m 18 yrs old';
+        // console.log(str4);
+
+        // let str5 = "I'm 18 yrs old";
+        // console.log(str5);
+
+        // let str6 = 'I\'m 18 yrs "old"';
+        // console.log(str6);
+        // console.log(str6.length);
+        // console.log(str6[0]);
+
+        // let str = 'this is a test string';
+        // str.indexOf("is", 5);
+
+        // function indexOf(strVal, pos) {
+        //     return 
+        // }
+
+
+        // Arrays
+        // let a = ["Dinesh", true, 1000, new Date()]; // static
+        // console.log(a);
+        // console.log(a[0]); // direct way to retrieve/extract a value from array
+        // a[4] = "New Data";
+        // console.log(a[4]);
+
+        // let b = []; // dynamic
+        // b[0] = 1000;
+        // b[1] = "Tony";
+        // console.log(b);
+        // console.log(b[0]);
+
+        // JSON
+
+        // Objects
+        let obj = {
+            propid: 2,
+            "name": "Dinesh",
+            active: true,
+            "id": 1000,
+            dateJoined: new Date(),
+            marks: {
+                html: 40,
+                css: 50,
+                js: 79,
+                react: 49
+            }
+        };
+        // // console.log(obj);
+        // console.log(obj.id);
+        // obj.subject = ["HTML", "CSS", "JavaScript", "REACTJS"];
+        // console.log(obj.subject);
+
+        // Array + Object
+        students = [
+            {
+                id: 1,
+                name: "Student 1",
+                age: 14,
+                active: true,
+                dateJoined: new Date(),
+                subjects: ["HTML", "CSS"],
+                marks: {
+                    html: 50,
+                    css: 30,
+                }
+            }, 
+            {
+                id: 2,
+                name: "Student 2",
+                age: 15,
+                active: true,
+                dateJoined: new Date(),
+                subjects: ["CSS", "Bootstrap"],
+                marks: {
+                    bootstrap: 50,
+                    css: 30,
+                }
+            }, 
+            {
+                id: 3,
+                name: "Student 3",
+                age: 14,
+                active: true,
+                dateJoined: new Date(),
+                subjects: ["HTML", "CSS", "JS"],
+                marks: {
+                    html: 50,
+                    css: 30,
+                    js: 30,
+                }
+            }, 
+            {
+                id: 4,
+                name: "Student 4",
+                age: 13,
+                active: true,
+                dateJoined: new Date(),
+                subjects: ["JS", "React"],
+                marks: {
+                    js: 50,
+                    react: 30,
+                }
+            },
+        ];
+    </script>
+    <noscript>JS is disabled. Please enable it for the desired functionality to work!</noscript>
+</body>
+</html>

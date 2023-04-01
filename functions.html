@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // let a = 10;
+        // let b = 20;
+        // console.log(a+b);
+
+        // function addNumbers(a=0, b=0, c=0, d=0) { // function definition
+        //     // let a = 10;
+        //     // let b = 20;
+        //     // console.log(a+b);
+        //     // return a+b;
+        //     let l = a+b+c+d;
+        //     // return c;
+        //     return "The result of a+b+c+d is : " + l;
+        // }
+        // let results = addNumbers(5, 5); // function invoking / calling line
+        // console.log(results);
+        // results = addNumbers(10, 10); // function invoking / calling line
+        // console.log(results);
+        // results = addNumbers(1, 1); // function invoking / calling line
+        // console.log(results);
+        // results = addNumbers(1, 1, 1); // function invoking / calling line
+        // console.log(results);
+        // results = addNumbers(1, 1, 1, 1); // function invoking / calling line
+        // console.log(results);
+
+        // function generateTable(rows1=1, cols1=1) {
+        //     document.write("<table border=1>");
+        //     for(let i=0; i < rows1; i++) { // 0<5
+        //         document.write("<tr>");
+        //         for(let j=0; j < cols1; j++) { // 0<5 1<5
+        //             document.write("<td>" + j + "</td>"); // 0
+        //         }
+        //         document.write("</tr>");
+        //     }
+        //     document.write("</table>");
+        // }
+        // generateTable(3, 5);
+        // generateTable(4, 8);
+        // generateTable();
+
+        // function addNumbers(a=0, b=0, c=0, d=0) { // function definition
+        //     let l = a+b+c+d;
+        //     return "The result of a+b+c+d is : " + l;
+        // }
+        // console.log(addNumbers(1));
+
+        // addNumbers1 = function(a=0, b=0, c=0, d=0) { // anonymous function definition
+        //     let l = a+b+c+d;
+        //     return "The result of a+b+c+d is : " + l;
+        // }
+        // console.log(addNumbers1(1));
+
+        // let a = 1;
+        // let b = 2;
+        // (function() { // immediately invoked function
+        //     console.log(a + b);
+        // })(a, b);
+
+
+        // addNumbers2 = (a=0, b=0, c=0, d=0) => { // arrow function definition
+        //     let l = a+b+c+d;
+        //     return "The result of a+b+c+d is : " + l;
+        // }
+        // console.log(addNumbers2(1));
+
+        // addNumbers3 = (a=0, b=0, c=0, d=0) => "The result of a+b+c+d is : " + (a+b+c+d);
+        // console.log(addNumbers3(1));
+
+        // console.log((a=0, b=0, c=0, d=0) => "The result of a+b+c+d is : " + (a+b+c+d));
+
+        // addNumbers4 = a => "The result of a+b+c+d is : " + (a+10);
+        // console.log(addNumbers4(1));
+
+        // addNumbers5 = () => "The result of a+b+c+d is : " + (10+10);
+        // console.log(addNumbers5());
+
+
+
+        // let arr = [1000, "Dinesh", true];
+        // let index=0;
+        // console.log("...... while.....");
+        // while(index < arr.length) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //     console.log(arr[index]); // arr[0] arr[1] arr[2] arr[3] arr[4]
+        //     index++; // 12345
+        // }
+
+        // console.log("...... for.....");
+        // for(let i=0; i<arr.length; i++) {
+        //     console.log(arr[i]);
+        // }
+
+        // console.log("..... for..in....");
+        // for(let temp in arr) {
+        //     console.log(arr[temp]);
+        // }
+
+        // console.log("..... for..of....");
+        // for(let temp of arr) {
+        //     console.log(temp);
+        // }
+
+        // console.log("..... forEach method.....");
+        // arr.forEach(processData);
+        // function processData(value) {
+        //     console.log(value);
+        // }
+
+        // processData1 = (value) => {
+        //     console.log(value);
+        // }
+        // arr.forEach(processData1);
+
+        // arr.forEach((value) => {
+        //     console.log(value);
+        // });
+
+
+        // val = [1, 2, 3, 4, 5];
+        // res = val.map(v => Math.sqrt(v));
+        // console.log(val);
+        // console.log(res);
+
+
+        // ageOfPeople = [15, 25, 32, 14, 10, 8, 45, 55, 62, 12, 8, 18, 63, 23, 33];
+        // age18above = ageOfPeople.filter(v => v>=18);
+        // console.log(ageOfPeople);
+        // console.log(age18above);
+
+
+        // marks = [50, 75, 85, 99, 76];
+        // totalavg = marks.reduce((pv, v) => pv + v)/marks.length; // 0+50 ; 50+75 ; 125+85 ; 210+99 ; 309+76 = 385
+        // console.log(totalavg);
+
+
+        // ageOfPeople = [15, 25, 32, 14, 10, 8, 45, 55, 62, 12, 8, 18, 63, 23, 33];
+        // all18above = ageOfPeople.every(v => v>=18);
+        // console.log(all18above);
+
+        // atleast1above18 = ageOfPeople.some(v => v>=18);
+        // console.log(atleast1above18);
+
+        // namesList = ["Dinesh", "Guna", "Arun", "Hema", "Irine", "Karthik", "Kiran", "Prabha", "Priya"];
+        // // resultsList = namesList.filter(v => v.charAt(0).toUpperCase() === "k".toUpperCase());
+        // resultsList = namesList.filter(v => v.indexOf("K")>=0);
+        // console.log(resultsList);
+        
+    </script>
+    
+</body>
+</html>
