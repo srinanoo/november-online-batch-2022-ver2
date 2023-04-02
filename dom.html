@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .colorRed {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <form name="frmLogin">
+        <input type="text" name="txtUsername" id="txtUsername" class="clsInput"><br>
+        <input type="button" value="Click" onclick="testFunc();" class="clsInput">
+    </form>
+
+    <form>
+        <input type="text" name="txtUsername"><br>
+        <input type="button" value="Click" onclick="testFunc();">
+    </form> -->
+
+    <div id="div1">
+        Div Container
+    </div>
+    <div id="div2" data-custom="1111">
+        Div <strong>Container</strong> goes here...
+    </div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+
+    <div id="div5"></div>
+    <input type="button" value="Click" onclick="testFunc1();">
+
+    <script>
+        function testFunc1() {
+            // let div1 = document.getElementById("div1").innerText;
+            // console.log(div1, " --- using innerText");
+
+            // let div2 = document.getElementById("div2").innerText;
+            // console.log(div2, " --- using innerText from HTML where tags are present");
+
+            // let div3 = document.getElementById("div2").innerHTML;
+            // console.log(div3, " --- using innerHTML from HTML where tags are present");
+
+            // document.getElementById("div3").innerText = div3;
+            // document.getElementById("div4").innerHTML = div3;
+
+            // let div4 = "<img src='images/button.jpg'>";
+            // document.getElementById("div5").innerHTML = div4;
+
+            // document.getElementById("txtUsername").value = "New Value";
+
+            // document.getElementById("div1").setAttribute("class", "colorRed");
+            // document.getElementById("div1").setAttribute("data-custom", "Dinesh");
+            // document.getElementById("div1").style.backgroundColor = "purple";
+            let divCon = document.getElementById("div1");
+            divCon.setAttribute("class", "colorRed");
+            divCon.setAttribute("data-custom", "Dinesh");
+            divCon.style.backgroundColor = "purple";
+
+            console.log(document.getElementById("div2").getAttribute("data-custom"));
+        }
+
+        function testFunc() {
+            // old method
+                // document.<form name>.<input control name>.value
+                let username = document.frmLogin.txtUsername.value;
+                console.log(username, " --- using form name.input name");
+
+                // document.forms[0].<input control name>.value
+                let username1 = document.forms[1].txtUsername.value;
+                console.log(username1, " --- using forms collection.input name");
+
+            // traditional method
+                // document.getElementById("<id attribute name>").value
+                let username2 = document.getElementById("txtUsername").value;
+                console.log(username2, " --- using getElementById");
+
+                // document.getElementsByClassName("<class attribute name>")[index].value
+                let username3 = document.getElementsByClassName("clsInput")[0].value;
+                console.log(username3, " --- using gelElementsByClassName");
+
+                // document.getElementsByName("<name attribute>")[index].value
+                let username4 = document.getElementsByName("txtUsername")[0].value;
+                console.log(username4, " --- using getElementsByName");
+
+                // document.getElementsByTagName("<name of the HTML tag>")[index].value
+                let username5 = document.getElementsByTagName("input")[0].value;
+                console.log(username5, " --- using getElementsByTagName");
+
+            // modern method
+                // document.querySelector("<CSS Selector>").value
+                let username6 = document.querySelector("#txtUsername").value;
+                console.log(username6, " --- using querySelector(#)");
+
+                let username7 = document.querySelector(".clsInput").value;
+                console.log(username7, " --- using querySelector(.)");
+
+                // document.querySelectorAll("<CSS Seletor>")[index].value
+                let username8 = document.querySelectorAll(".clsInput")[0].value;
+                console.log(username8, " --- using querySelectorAll(.)[index]");
+        }
+    </script>
+    
+</body>
+</html>

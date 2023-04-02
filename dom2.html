@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Generate Table</h1>
+    <input type="number" id="rows" placeholder="Enter Row count:"><br>
+    <input type="number" id="cols" placeholder="Enter Col count:"><br>
+    <button id="btnClick" onclick="generateTable();">Generate Table</button>
+    <div id="results"></div>
+
+
+    <script>
+        function generateTable() {
+            let rows = document.querySelector("#rows").value;
+            let cols = document.querySelector("#cols").value;
+
+            let output = "";
+            output += "<table border=1>";
+            for(let i=0; i < rows; i++) { // 0<5
+                output += "<tr>";
+                for(let j=0; j < cols; j++) { // 0<5 1<5
+                    output += "<td>" + j + "</td>"; // 0
+                }
+                output += "</tr>";
+            }
+            output += "</table>";
+
+            console.log(output);
+            document.querySelector("#results").innerHTML = output;
+        }
+    </script>
+    
+</body>
+</html>

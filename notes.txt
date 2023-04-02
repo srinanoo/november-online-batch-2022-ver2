@@ -1211,3 +1211,12 @@ JS Tasks:
         - JavaScript-Project-Titles-List.txt
             - 18 assignment titles
             - 22 feature titles (useful in website)
+
+
+NOTES: 02-04-2023
+
+<TAGNAME>
+    ::before
+    .... content / child container
+    ::after
+</TAGNAME>

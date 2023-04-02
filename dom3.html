@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colorRed {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="div1">
+        <h3 id="h3">Heading 3</h3>
+        <p id="p1">Paragraph 1</p>
+        <div id="div2">Div 1 Container</div>
+    </div>
+
+    <div id="div4"></div>
+
+    <!-- <div>
+        <p>Paragraph</p>
+        <img>
+        <button></button>
+    </div> -->
+
+    <!-- <button id="btnClick" onclick="testFunc();">Click</button> -->
+
+    <button id="btnClick">Click</button>
+
+    <script>
+        document.querySelector("#btnClick").addEventListener("click", () => {
+            let div1 = document.querySelector("#div1");
+            let h3 = document.querySelector("#h3");
+            let p1 = document.querySelector("#p1");
+            let div2 = document.querySelector("#div2");
+
+            let p2 = document.createElement("p");
+            p2.innerHTML = "New Paragraph created through JS";
+            p2.setAttribute("class", "colorRed");
+            p2.setAttribute("id", "p3");
+
+            div1.append(p2);
+
+            let p3 = document.querySelector("#p3");
+            console.log(p3.getAttribute("id"));
+
+            let div3 = document.createElement("div");
+            div3.innerHTML = "New <strong>Div</strong> Created";
+            div3.style.backgroundColor = "purple";
+            div3.style.color = "pink";
+
+            div1.prepend(div3);
+
+            let h4 = document.createElement("h4");
+            h4.innerHTML = "Heading 4";
+
+            div1.insertBefore(h4, p1);
+
+            let div4 = document.querySelector("#div4");
+            let newPara = document.createElement("p");
+            newPara.innerHTML = "Project 1";
+            let newImg = document.createElement("img");
+            newImg.src = "images/button.jpg";
+            let newButton = document.createElement("button");
+            newButton.innerText = "Read More...";
+            newButton.addEventListener("click", ()=>{
+                console.log("New button clicked");
+            });
+            let newDiv = document.createElement("div");
+
+            // newDiv.append(newPara);
+            // newDiv.append(newImg);
+            // newDiv.append(newButton);
+            newDiv.append(newPara, newImg, newButton);
+
+            div4.append(newDiv);
+
+            div2.remove();
+        });
+        
+    </script>
+    
+</body>
+</html>
