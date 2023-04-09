@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="getLocalStorage"></div>
+
+    <button id="btnGet">Get Local Storage</button>
+    <button id="btnSet">Set Local Storage</button>
+    <button id="btnDelete">Delete Local Storage</button>
+
+    <!-- <div id="getSessionStorage"></div>
+
+    <button id="btnSet">Set Session Storage</button>
+    <button id="btnDelete">Delete Session Storage</button> -->
+
+    <script>
+        document.querySelector("#btnGet").addEventListener("click", () => {
+            let lS;
+            if(localStorage.getItem("userData"))
+                lS = JSON.parse(localStorage.getItem("userData"));
+            document.querySelector("#getLocalStorage").innerHTML = lS.id + "=" + lS.name + "=" + lS.title;
+            console.log(lS.id);
+            console.log(lS);
+        });
+
+
+        let userObj = {
+            id: 1,
+            name: "Dinesh",
+            title: "Developer",
+            age: 30,
+            progress: 3
+        }
+
+        document.querySelector("#btnSet").addEventListener("click", () => {
+            localStorage.setItem("userData", JSON.stringify(userObj));
+        });
+
+        document.querySelector("#btnDelete").addEventListener("click", () => {
+            localStorage.removeItem("name");
+        });
+
+        // document.querySelector("#getSessionStorage").innerHTML = sessionStorage.getItem("name");
+
+        // document.querySelector("#btnSet").addEventListener("click", () => {
+        //     sessionStorage.setItem("name", "Dinesh");
+        // });
+
+        // document.querySelector("#btnDelete").addEventListener("click", () => {
+        //     sessionStorage.removeItem("name");
+        // });
+
+    </script>
+    
+</body>
+</html>

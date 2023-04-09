@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button onclick="goBack();">Back</button>
+    <button onclick="goFoward();">Forward</button>
+    <button onclick="goGo();">Go</button>
+
+    <button onclick="goRedirect();">Replace</button> -->
+
+    <!-- <button onclick="goDelete();">Delete</button> -->
+
+    <!-- <button onclick="generateTable();">Generate Table</button>
+    <div id="results"></div> -->
+
+    <!-- <button onclick="openWindow();">Open Window</button> -->
+
+    <div id="time"></div>
+
+    <button onclick="startTime();">Start</button>
+    <button onclick="stopTime();">Stop</button>
+
+    <script>
+        let timer;
+
+        function startTime() {
+            timer = setInterval(() => {
+                let dt = new Date();
+                document.getElementById("time").innerHTML = dt.toLocaleTimeString();
+            }, 1000);
+        }
+
+        function stopTime() {
+            clearInterval(timer);
+        }
+
+        // let dt = new Date();
+        // console.log(dt);
+
+        // let dt1 = new Date("01/01/2023");
+        // console.log(dt1);
+
+        // let dt2 = new Date(1000);
+        // console.log(dt2);
+
+        // let dt3 = new Date(2003, 05, 05, 5, 8, 30, 999);
+        // console.log(dt3);
+
+        // function openWindow() {
+        //     let newWin = window.open("", "", "top=150, left=300, width=500, height=500");
+        //     newWin.document.write("This is written from my parent window");
+        //     newWin.document.write("<p>This is my paragraph window.</p>");
+        //     newWin.document.write("<button onclick='window.close();'>Close</button>");
+        // }
+        
+        // function generateTable() {
+        //     let rows = parseInt(prompt("Enter the no. of rows you want to generate"));
+        //     let cols = parseInt(prompt("Enter the number of columns you want to generate"));
+        //     console.log(rows, cols);
+        //     console.log(typeof rows, typeof cols);
+
+        //     let output = "";
+        //     output += "<table border='1'>";
+        //         for (let i = 0; i < rows; i++) {
+        //             output += "<tr>";
+        //                 for (let j = 0; j < cols; j++) {
+        //                     output += "<td>" + cols + "</td>";
+        //                 }
+        //             output += "</tr>";
+        //         }
+        //     output += "</table>";
+        //     document.getElementById("results").innerHTML = output;
+        // }
+
+        // function goDelete() {
+        //     let confirmation = confirm("Are you sure you want to delete?");
+        //     // console.log(confirmation);
+        //     if(confirmation) {
+        //         console.log("Prceeding with the deletion of the records");
+        //     } else {
+        //         console.log("We are not doing anything here...");
+        //     }
+        // }
+
+        // function goBack() {
+        //     history.back();
+        // }
+        // function goFoward() {
+        //     history.forward();
+        // }
+        // function goGo() {
+        //     history.go(5);
+        // }
+
+        // function goRedirect() {
+        //     // location.href = "https://www.google.com";
+        //     // console.log(location.href);
+
+        //     // location.reload();
+        //     // location.replace("https://www.amazon.in");
+        //     console.log(location.search);
+        //     let srch = location.search;
+        //     srch = srch.slice(1);
+        //     console.log(srch);
+
+        //     srch = srch.split("&");
+        //     console.log(srch);
+        //     srch.forEach(v => console.log(v));
+        // }
+
+        // console.log(location);
+    </script>
+    
+</body>
+</html>

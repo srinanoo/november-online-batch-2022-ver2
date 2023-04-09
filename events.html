@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div1, #shapes > div {
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <textarea id="taMessage"></textarea>
+    <div id="count"></div> -->
+
+    <!-- <input type="text" placeholder="" id="txtUsername"><br>
+
+    Subjects:<br>
+    <input type="checkbox" name="chkSubjects" value="HTML"> HTML<br>
+    <input type="checkbox" name="chkSubjects" value="CSS"> CSS<br>
+    <input type="checkbox" name="chkSubjects" value="Bootstrap"> Bootstrap<br>
+    <input type="checkbox" name="chkSubjects" value="JavaScript"> JavaScript<br>
+    <input type="checkbox" name="chkSubjects" value="ReactJs"> ReactJs<br>
+    <input type="checkbox" name="chkSubjects" value="NodeJs"> NodeJs<br><br>
+
+    <input type="checkbox" id="chkAgree" value="Yes"> I agree to the T&C<br><br>
+
+    <button id="btnGet">Get Checked Data</button> -->
+
+    <!-- <div id="div1">
+        Div Container
+    </div>
+    <div id="pos"></div> -->
+
+    <!-- <div id="shapes">
+        <div id="square">Square</div>
+        <div id="triangle">Triangle</div>
+        <div id="circle">Circle</div>
+        <div id="rectangle">Rectangle</div>
+        <div id="pentagon">Pentagon</div>
+    </div> -->
+
+    <!-- <a href="https://github.com/" id="anchor">GitHub</a><br>
+
+    <div>Div Container</div>
+
+    <input type="text" id="txt1"><br>
+    <input type="text" id="txt2"><br>
+    <input type="text" id="txt3"><br>
+    <input type="text" id="txt4"><br>
+    <input type="text" id="txt5"><br> -->
+
+    Cities:<br>
+    <select id="slCities">
+        <option value="1">Chennai</option>
+        <option value="2">Mumbai</option>
+        <option value="3">Kolkata</option>
+        <option value="4">Hyderabad</option>
+        <option value="5">Bengaluru</option>
+    </select>
+
+    <br>
+    States:<br>
+    <select id="slStates">
+        <option value="1">Tamilnadu</option>
+        <option value="2">Maharastra</option>
+        <option value="3">West Bengal</option>
+        <option value="4">Telengana</option>
+        <option value="5">Karnataka</option>
+    </select>
+
+    <script>
+        document.getElementById("slCities").addEventListener("change", () => {
+            document.getElementById("slStates").value = document.getElementById("slCities").value;
+        });
+
+        // document.getElementById("txt1").focus();
+
+        // document.getElementById("txt3").addEventListener("focus", () => {
+        //     let txt3 = document.getElementById("txt3");
+        //     if(txt3.value === "") {
+        //         txt3.style.backgroundColor = "red";
+        //         txt3.style.color = "white";
+        //         txt3.focus();
+        //     } else {
+        //         txt3.style.backgroundColor = "green";
+        //     }
+        // });
+        // document.getElementById("txt3").addEventListener("blur", () => {
+        //     let txt3 = document.getElementById("txt3");
+        //     if(txt3.value === "") {
+        //         txt3.style.backgroundColor = "red";
+        //         txt3.style.color = "white";
+        //         txt3.focus();   
+        //     } else {
+        //         txt3.style.backgroundColor = "green";
+        //     }
+        // });
+
+        // document.getElementById("anchor").addEventListener("click", (e) => {
+        //     e.preventDefault();
+        //     console.log("This is not going to redirect")
+        // });
+
+        // document.getElementById("shapes").addEventListener("click", (e) => {
+        //     console.log(e.target.getAttribute("id"));
+        // });
+
+        // document.getElementById("square").addEventListener("click", () => {
+        //     console.log("Square clicked");
+        // });
+        // document.getElementById("triangle").addEventListener("click", () => {
+        //     console.log("Triangle clicked");
+        // });
+        // document.getElementById("circle").addEventListener("click", () => {
+        //     console.log("Circle clicked");
+        // });
+
+        // document.getElementById("div1").addEventListener("mousemove", (event) => {
+        //     let x = event.clientX;
+        //     let y = event.clientY;
+        //     document.getElementById("pos").innerHTML = "X: "+ x + ", Y: " + y;
+        // });
+
+        // document.getElementById("div1").addEventListener("mouseenter", () => { // mouseover
+        //     let div1 = document.getElementById("div1");
+        //     div1.style.backgroundColor = "red";
+        //     div1.style.color = "white";
+        //     div1.style.cursor = "pointer";
+        // });
+        // document.getElementById("div1").addEventListener("mouseleave", () => { // mouseout
+        //     let div1 = document.getElementById("div1");
+        //     div1.style.backgroundColor = "green";
+        //     div1.style.color = "white";
+        //     div1.innerHTML = "Div Content Changed";
+        // });
+
+        // document.getElementById("btnGet").addEventListener("click", ()=> {
+        //     let subjects = document.getElementsByName("chkSubjects");
+        //     console.log(subjects.length);
+        //     for(let i=0; i<subjects.length; i++) {
+        //         if(subjects[i].checked)
+        //             console.log(subjects[i].value);
+        //     }
+
+        //     console.log(document.getElementById("txtUsername").value);
+
+        //     let agree = document.getElementById("chkAgree").checked;
+        //     console.log(agree);
+        //     if(!agree) alert("Please check the Agreement and then submit!");
+        // });
+
+        // document.getElementById("taMessage").addEventListener("keyup", () => {
+        //     document.getElementById("count").innerText = document.getElementById("taMessage").value.length;
+        // });
+    </script>
+    
+</body>
+</html>

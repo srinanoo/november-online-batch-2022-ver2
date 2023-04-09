@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="results"></div>
+
+    <button id="btnFetch">Fetch Data from API</button>
+
+    <script>
+        // document.getElementById("btnFetch").addEventListener("click", () => {
+        //     fetch('https://catfact.ninja/fact')
+        //         .then(res => res.json())
+        //         .then(result => {
+        //             console.log(result)
+        //             let output = "";
+        //             if(result) {
+        //                 output += "<div>Fact: "+ result.fact + "</div>";
+        //                 output += "<div>Length: "+ result.length + "</div>";
+        //             }
+        //             document.getElementById("results").innerHTML = output;
+        //         });
+        // });
+
+        // or
+
+        document.getElementById("btnFetch").addEventListener("click", async () => {
+            let res = await fetch('https://catfact.ninja/fact');
+            let result = await res.json();
+            console.log(result)
+            let output = "";
+            if(result) {
+                output += "<div>Fact: "+ result.fact + "</div>";
+                output += "<div>Length: "+ result.length + "</div>";
+            }
+            document.getElementById("results").innerHTML = output;
+        });
+
+        // function calledFunc() {
+        //     return new Promise((resolve, reject, err) => {
+        //         if(err) reject(err);
+        //         setTimeout(() => {
+        //             resolve("inside timeout");
+        //         }, 5000);
+        //     })
+        // }
+
+        // async function parentFunc() {
+        //     console.log("1st output");
+        //     let output = await calledFunc(); // synchronoused
+        //     console.log(output);
+        //     console.log("2nd output");
+        // }
+        
+        // parentFunc();
+    </script>
+    
+</body>
+</html>

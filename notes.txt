@@ -1220,3 +1220,24 @@ NOTES: 02-04-2023
     .... content / child container
     ::after
 </TAGNAME>
+
+
+NOTES: 08-04-2023
+
+JS Events:
+    Keyboard
+        keydown
+        keypress
+        keyup
+    Mouse
+        click
+        dblclick
+        mouseover
+        mouseout
+        mouseenter
+        mouseleave
+        mousemove
+    Other
+        focus
+        blur
+        change

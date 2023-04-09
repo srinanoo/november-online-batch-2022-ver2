@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // let obj = { // values are directly assgined
+        //     id: 1,
+        //     name: "Dinesh",
+        //     active: true
+        // }
+        // console.log(obj.id);
+        // console.log(obj.name);
+        // console.log(obj.active);
+        // obj.dateJoined = new Date();
+        // console.log(obj.dateJoined);
+        // console.log(obj.dateJoined);
+
+        // let obj1 = new Object();
+
+        // function testFunc(id1, name1, active1) { // function or object definition
+        //     this.id = id1;
+        //     this.name = name1;
+        //     this.active = active1;
+        // }
+        // let funcObj = new testFunc(2, "New Name", false);
+        // console.log(funcObj.id);
+        // console.log(funcObj.name);
+        // console.log(funcObj.active);
+        // funcObj.dateJoined = new Date();
+        // console.log(funcObj.dateJoined);
+
+        // funcObj = new testFunc(3, "Another Name", true);
+        // console.log(funcObj.id);
+        // console.log(funcObj.name);
+        // console.log(funcObj.active);
+        // console.log(funcObj.dateJoined);
+
+
+
+        // function testFunc(id1, name1, active1) { // function or object definition
+        //     this.id = id1;
+        //     this.name = name1;
+        //     this.active = active1;
+        // }
+        // let funcObj = new testFunc(2, "New Name", false);
+        // console.log(funcObj.id);
+        // console.log(funcObj.name);
+        // console.log(funcObj.active);
+        // funcObj.dateJoined = new Date();
+        // console.log(funcObj.dateJoined);
+
+        // class ClsClass { // Class Name
+        //     constructor(id1, name1, active1, val) { // first member method is going to be called is "constructor"
+        //         this.id = id1; // member variable
+        //         this.name = name1; // member variable
+        //         this.active = active1; // member variable
+        //         this.userData = val; // member variable
+        //     }
+
+        //     getData() { // getters // member method
+        //         return "Id: " + this.id + ", Name: " + this.name + ", Active: " + this.active;
+        //     }
+
+        //     setData(newName, newActive) { // setters  // member method
+        //         this.name = newName;
+        //         this.active = newActive;
+        //     }
+
+        //     setAndGetData(nName, nActive) { // member method
+        //         this.name = nName;
+        //         this.active = nActive;
+        //         return this.getData();
+        //     }
+        // }
+        // let obj = { // values are directly assgined
+        //     id: 1000,
+        //     name: "obj Name",
+        //     active: "obj active"
+        // }
+        // let clsObj = new ClsClass(1, "Dinesh", true, obj);
+        // // console.log(clsObj.id);
+        // // console.log(clsObj.name);
+        // // console.log(clsObj.active);
+        // // console.log(clsObj.userData.id);
+        // // console.log(clsObj.userData.name);
+        // // console.log(clsObj.userData.active);
+        // console.log(clsObj.getData());
+
+        // clsObj.setData("Tony", false);
+        // console.log(clsObj.getData());
+
+        // console.log(clsObj.setAndGetData("Latha", "New Active"));
+
+        class ParentClass {
+            constructor(pName, pAge) {
+                this.parentName = pName;
+                this.parentAge = pAge;
+            }
+
+            getParentDetails() {
+                return "My Parent Name is: " + this.parentName + ", and Age is : " + this.parentAge;
+            }
+        }
+
+        class ChildClass extends ParentClass {
+            constructor(cName, cAge, pName, pAge) {
+                super(pName, pAge); // this method should be called before any of the child references are initialized
+                this.childName = cName;
+                this.childAge = cAge;
+            }
+
+            getChildDetails() {
+                return "Child Name is: " + this.childName + ", and Age is : " + this.childAge;
+            }
+        }
+        let clsChildObj = new ChildClass("Dinesh", 30, "Dinesh's Parent", 60);
+        console.log(clsChildObj.getChildDetails());
+        console.log(clsChildObj.getParentDetails());
+    </script>
+    
+</body>
+</html>
